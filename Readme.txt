@@ -1,4 +1,4 @@
-Indix Coding Challenge: Tautology Verifier
+Tautology Verifier
 
 How To Build The Program:
 
