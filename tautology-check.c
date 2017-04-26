@@ -16,7 +16,7 @@ int fnvalues[1000], numvar;
 
 int get_expression(char ipstr[])
 {
-     printf("Operators : \n& AND\n~ Not\n| OR\n> IMPLIES\n= IMPLIES AND IS IMPLIED BY\n");
+     printf("Operators : \n& AND\n! Not\n| OR\n");
      printf("Use any alphabets to denote your variables\n");
      printf("Please enter your logical expression : \n");
      

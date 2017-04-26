@@ -26,13 +26,12 @@ int truth_table(char ipstr[], int fnvalues[], int *no_of_variables){
      remove_spaces(ipstr);
      
      if(check_for_valid_characters(ipstr)){
-	  printf("ERROR! Use only valid characters - ~&|() a-z A-Z\n");
+	  printf("ERROR! Use only valid characters - !&|() a-z A-Z\n");
 	  return 1;
      }
-
      set_precedence(precedence,  ipstr);
      get_variables(listvar, &numvar, precedence);
-
+     
      if(conv_to_postfix(ipstr, opstr, precedence) == 1){
 	  printf("\nError in input\n");
 	  return 1;

@@ -1,0 +1,18 @@
+Test Case-1 : (!a |(a&a))
+Solution : True
+Test Case-2 : (!a | (b& !a))
+Solution : False
+Test Case-3 : (!a | a)
+Solution : True
+Test Case-4 : ((a & (!b | b)) | (!a & (!b | b)))
+Solution : True
+Test Case-5 : a&b
+Solution : False
+Test Case-6 : a
+Solution : False
+Test Case-7 : ((!a|b) & (!c&d))
+Solution : False
+Test Case-8 : a | b & c
+Solution : False
+Test Case-9 : a | !a
+Solution : True
